@@ -1,0 +1,197 @@
+{
+  "bounds": [
+    -180,
+    -85,
+    180,
+    85
+  ],
+  "center": [
+    43.5938,
+    30.7513,
+    0
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 7,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "raster",
+      "extent": [
+        -179.9999999749438,
+        -85.051,
+        179.9999999749438,
+        85.051
+      ],
+      "id": "hypsography",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/GRAY_HR_SR_OB_MERCATOR.tif"
+      },
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "hypsography"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -141.0055486389999,
+        -55.120923766999944,
+        140.97762699400005,
+        70.07531036400012
+      ],
+      "id": "borders",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/ne_10m_admin_0_boundary_lines_land.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "borders"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.9999999999999,
+        -85.051,
+        180,
+        83.63410065300015
+      ],
+      "id": "countries",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/ne_10m_admin_0_countries.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "countries"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        35.72339928500014,
+        29.963003537005722,
+        48.55834561935342,
+        37.18826351557722
+      ],
+      "id": "urban",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/ne_10m_urban_areas_filtered.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "urban"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -166.532487587878,
+        -55.11212400026875,
+        178.37210805555551,
+        71.17768427804648
+      ],
+      "id": "roads",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/ne_10m_roads.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.9999999999999,
+        -85.051,
+        180,
+        83.63410065300015
+      ],
+      "id": "countrynames",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/ne_10m_admin_0_countries.geojson",
+        "id": "countrynames",
+        "project": "inf-isil-interactive",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "countrynames"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.9999999999999,
+        -85.051,
+        180,
+        83.63410065300015
+      ],
+      "id": "countrynames-da",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/ne_10m_admin_0_countries_da.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "countrynames-da",
+      "status": "off"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -179.58997888396897,
+        -85.051,
+        179.38330358817018,
+        82.48332318035943
+      ],
+      "id": "cities",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/ne_10m_populated_places_simple.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "cities"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -179.58997888396897,
+        -85.051,
+        179.38330358817018,
+        82.48332318035943
+      ],
+      "id": "cities-da",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/wulff/Dropbox/Data sources/Natural Earth/ne_10m_populated_places_simple_da.geojson"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "cities-da",
+      "status": "off"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "INF Daesh",
+  "description": "Background tiles for Daesh interactive",
+  "attribution": "Map by Morten Wulff, made with Natural Earth",
+  "version": "1.0.0"
+}

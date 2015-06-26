@@ -1,0 +1,153 @@
+@import "bootstrap.less";
+@import (inline) "Control.MiniMap.css";
+@import (inline) "leaflet.css";
+@import (inline) "jquery-ui.css";
+@import (inline) "theme.css";
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "franklin-gothic-urw", sans-serif;
+}
+
+.inf-no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#inf-map {
+  height: 480px;
+  .date.leaflet-control {
+    margin-left: 14px;
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: .8;
+    color: #d00;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+  }
+}
+@media (max-width: 767px) {
+  #inf-map {
+    height: 320px;
+  }
+}
+
+#inf-slider {
+  width: 100%;
+  margin: 10px 0;
+}
+
+#inf-counter-wrapper {
+  padding: 3px 0;
+  font-size: 14px;
+  color: #f0f0f0;
+  background-color: #333;
+  text-transform: uppercase;
+  #count-sorties {
+    font-size: 16px;
+  }
+  .muted {
+    color: #666;
+  }
+}
+
+#inf-controls-wrapper {
+  color: #f0f0f0;
+  background-color: #d00;
+
+  a {
+    color: #f0f0f0;
+  }
+
+  .ui-widget-header {
+    background-color: #fff;
+    background-image: none;
+  }
+
+  #inf-controls-slider .col-md-11 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #inf-controls-buttons {
+    padding-top: 4px;
+    padding-left: 12px;
+    font-size: 17px;
+  }
+}
+
+#inf-charts-wrapper {
+  color: #f0f0f0;
+  background-color: #333;
+
+  g {
+    fill: #f0f0f0;
+  }
+  g.tick {
+    text {
+      font-size: 12px;
+    }
+  }
+
+  h4 {
+    margin: 14px 0 10px 0;
+  }
+
+  #inf-intro, #inf-legend {
+    h2 {
+      margin-top: 14px;
+      font-size: 18px;
+    }
+  }
+
+  #inf-intro {
+    padding-right: 15px;
+  }
+
+  #inf-legend #attribution {
+    margin-top: 18px;
+    font-size: 10px;
+    a {
+      color: #f0f0f0;
+    }
+  }
+
+  #inf-legend span.magnitude {
+    background-color: #f00;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    opacity: 0.8;
+
+    &.magnitude-1 {
+      width: 14px;
+      height: 14px;
+      margin-right: 50px;
+    }
+    &.magnitude-2 {
+      width: 20px;
+      height: 20px;
+      margin-right: 44px;
+    }
+    &.magnitude-3 {
+      width: 32px;
+      height: 32px;
+      margin-right: 32px;
+    }
+    &.magnitude-4 {
+      width: 44px;
+      height: 44px;
+      margin-right: 20px;
+    }
+    &.magnitude-5 {
+      width: 62px;
+      height: 62px;
+      margin-right: 2px;
+    }
+  }
+}

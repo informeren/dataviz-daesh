@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="nofollow">
+
+    <title>Bomber over Irak og Syrien</title>
+
+    <script src="//use.typekit.net/hhi6htw.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+    <link rel="stylesheet" href="../css/map.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="inf-counter-wrapper" class="row">
+        <div class="col-md-12 col-sm-12 counter">
+          Luftangreb i Irak og Syrien: 
+          <strong><span id="count-sorties">0</span></strong>
+          <img src="../img/military-bomb-icon-32.png" width="16" height="16" alt="bombe" class="bomb" style="padding-bottom: 3px;" />
+          <span class="muted">Efter <strong><span id="count-days">0</span></strong> dage i krig</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 inf-no-padding">
+          <div id="inf-map"></div>
+        </div>
+      </div>
+      <div id="inf-controls-wrapper" class="row">
+        <div id="inf-controls-slider" class="col-md-6 col-sm-6">
+          <div class="row">
+            <div id="inf-controls-buttons" class="col-md-1 col-sm-1 col-xs-2 inf-no-padding">
+              <span class="inf-play"><a href="#" id="inf-play-pause"><span class="glyphicon glyphicon-play"></span></a></span>
+            </div>
+            <div class="col-md-11 col-sm-11 col-xs-10 inf-no-padding">
+              <div id="inf-slider"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="inf-charts-wrapper" class="row">
+        <div id="inf-sorties" class="col-md-2 col-sm-2"><h4>Luftangreb</h4></div>
+        <div id="inf-targets" class="col-md-4 col-sm-4"><h4>Mål</h4></div>
+        <div id="inf-legend" class="col-md-2 col-sm-2">
+          <h2>Signaturforklaring</h2>
+          <p>Antal angreb</p>
+          <p>
+            <span class="magnitude magnitude-1"></span> &lt; 20
+          </p>
+          <p>
+            <span class="magnitude magnitude-2"></span> 20-99
+          </p>
+          <p>
+            <span class="magnitude magnitude-3"></span> 100-499
+          </p>
+          <p>
+            <span class="magnitude magnitude-4"></span> 500-1000
+          </p>
+          <p>
+            <span class="magnitude magnitude-5"></span> &gt; 1000
+          </p>
+          <p id="attribution">
+            <a href="http://leafletjs.com/">Leaflet</a> &nbsp; <a href="http://www.naturalearthdata.com/">Bygget med Natural Earth</a>
+          </p>
+        </div>
+        <div id="inf-intro" class="col-md-4 col-sm-4">
+          <h2>Bomber over Irak & Syrien</h2>
+          <p>
+            Kortet er baseret på pressemeddelelser fra CENTCOM, amerikansk militærs centralkommando, der hver dag offentliggør, hvilke mål USA og de øvrige lande i koalitionen har ramt i luftkrigen mod islamisterne i Irak og Syrien.
+          </p>
+          <p>
+            Da Danmark aktivt tilslutter sig aktionen den 16. oktober, fjernes de specifikke oplysninger om koalitionens forskellige partnerlande fra pressemeddelelserne. Herefter er det ikke muligt at skille de såkaldte partnerlandes angreb fra hinanden ud fra CENTCOMs pressemeddelelser.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="../js/map.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "dataviz-daesh",
+  "version": "1.0.0",
+  "description": "A set of data visualizations charting allied attacks in Iraq and Syria",
+  "keywords": [
+    "dataviz",
+    "daesh",
+    "iraq",
+    "syria"
+  ],
+  "authors": [
+    "Morten Wulff",
+    "Rasmus Raun Westh"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "dist",
+    "node_modules",
+    "vendor"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3",
+    "d3": "~3.5",
+    "jquery": "~1.11",
+    "jquery-ui": "~1.11",
+    "leaflet": "~0.7",
+    "leaflet-minimap": "1.0.0"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1"
+  }
+}

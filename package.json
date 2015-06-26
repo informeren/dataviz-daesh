@@ -1,0 +1,28 @@
+{
+  "name": "dataviz-daesh",
+  "version": "1.0.0",
+  "description": "A set of data visualizations charting allied attacks in Iraq and Syria",
+  "repository": "http://github.com/informeren/dataviz-daesh",
+  "main": "index.js",
+  "scripts": {
+    "test": "./tests.sh"
+  },
+  "keywords": [
+    "dataviz",
+    "daesh",
+    "iraq",
+    "syria"
+  ],
+  "author": "Morten Wulff <wulff@ratatosk.net>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "~1.2",
+    "gulp": "~3.9",
+    "gulp-concat": "~2.5",
+    "gulp-connect": "~2.2",
+    "gulp-less": "~3.0",
+    "gulp-minify-css": "~1.1",
+    "gulp-uglify": "~1.2"
+  }
+}
