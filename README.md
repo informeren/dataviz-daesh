@@ -7,7 +7,7 @@ This repository contains the code used to build the datavisualizations on the fo
 * [Airwars](http://airwars.org/)
 * [Læren fra Kobane](http://www.information.dk/databloggen/524725)
 
-![Screenshot of the map visualization](/informeren/dataviz-daesh/master/assets/images/screenshot.png?raw=true)
+![Screenshot of the map visualization](https://github.com/informeren/dataviz-daesh/raw/master/assets/images/screenshot.png)
 
 
 Getting started
