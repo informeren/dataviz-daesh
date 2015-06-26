@@ -35,7 +35,6 @@ Preparing source data
 All the visualizations in this package rely on data managed in a few Google spreadsheets. You can use the `map.sh` script in the `tools` folder to grab the latest version of the data and convert it into formats for use with the visualizations.
 
 
-
 Natural Earth
 -------------
 
